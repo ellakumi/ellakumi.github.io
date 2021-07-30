@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    font-family: open sans-serif;
+    font-family:   sans-serif;
+    background-color: #131211;
+    color: #050505; 
+    background-color: #f1e7ef;  
+    
+}
+
+ #navbar{
+    height:10vh;
+    width:100vw; 
+    background-color:rgb(238, 218, 228);
+    /* background-color:#e74e9a; */
+    
+    
+    /* display:flex;  */
+   } 
+   a:hover {background-color: #eeccda ;width:87%; overflow:hidden; } 
+
+   li{
+    display:inline;
+    text-align: right;
+    padding-right: 1px;
+    top:3vh;
+    margin-left: 60%;
+    position: relative; 
+    align-items: center;
+    margin:5vw ; 
+    font-size: 2.5vh;  
+    font-style: oblique;
+    color: rgba(27, 21, 21, 0.801); 
+    } 
+ 
+
+
+a{
+    text-decoration: none;
+} 
+
+
+
+
+
+#Pics{
+    height:85vh;
+    width: 100vw;
+    display: flex;
+    background-color:#f0e4e4;
+     
+}
+
+#Pic1{
+    height: 80vh;
+    width : 30vw;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+     background-color: rgb(55, 197, 126); 
+    
+    margin-left: 1%;
+    margin-right: 5%;
+    /* margin-bottom: 0.5%;  */
+}
+
+
+
+#Pics Myself{
+    height:100vh;
+    width: 70vw;
+    flex-direction: row;
+    margin-right: 3%;
+    background-color:#ee7777;
+    margin-left: 3%;
+    font-weight: 300;
+    text-align: center;
+   }
+#Myself h1{
+    text-align: center;
+    
+    
+}
+
+#button{
+    width:20%;
+    height:30%;
+    background-color: rgb(236, 220, 228) ;
+    background-color:#d8c5cfc4;
+    padding:4px 7px;
+    color: #050505; 
+    margin-right: 30px;
+    margin-left:50px;
+    margin-top:80px;
+    border: 0px;
+    border-radius: 50px;
+    /*    */
+    color: rgb(23, 25, 26) ;
+    
+}
+
+#Footer{ 
+    height:10vh;
+    width: 100vw;
+    color:#111011;
+    /* padding: 20px;  */
+    background-color: rgb(236, 99, 163); 
+    top:0.5px;
+    font-style: muli;
+    text-align: center;
+}
