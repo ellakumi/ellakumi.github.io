@@ -15,9 +15,9 @@
      <div  id="navbar">
             <nav>
                 
-                <a href="index.html "> <li>Home</li></a>
-                <a href="blog1.html"> <li>Gallery</li></a>
-                <a href="blog2.html"> <li>More</li></a>
+                <a href="Blogrel.html "> <li>Home</li></a>
+                <a href=" " id="current"> <li>Project</li></a>
+                <!-- <a href="blog2.html"> <li>More</li></a> -->
                   
             </nav>
     </div>
@@ -29,15 +29,43 @@
        
     <body>
      
-        
-        <div id ="Pics">
+        <div class = content>
+            <div class ="projectdesc">
+                <h1>Farmer-Lsyt</h1>
+                <p>A data analysis on data gathered from farmers. <br><br>
+                    This analysis draws insights on the various composition of our farmers
+                    and  the crops which farmers succeed with the most.
+                    Python libraries like numpy,pandas and seaborn were used to achieve this project.
+                </p>
+                
+                    <!-- <a href=>"https://github.com/ellakumi/Data-Analysis-Farmers">
+                        <button class = "githublink">View Project</button>
+                    </a>
+                 -->
+                <button class="githublink" 
+                    onclick="window.location.href = 'https://github.com/ellakumi/Data-Analysis-Farmers';">View Project
+                </button>
 
-            <img src="Ella 3.jpg"  style = "border-reach : 33.3%"   >
-            <img src="Ella 7.jpg"  style = "border-reach : 33.3%"   >
-            <img src="Ella 15.jpg"  style = "border-reach : 33.3%"   >
-        
-        
-           </div>
+            </div>
+            <div class ="projectdesc">
+
+                <h1>Data Wrangling</h1>
+                <p>
+                Data Wrangling Exercise <br><br>
+                This has to do with data transformation and visualization.
+                Python libraries like numpy,pandas and matplotlib were used to achieve this project.
+                </p>
+                    
+                    <button class = "githublink"
+                    onclick="window.location.href = 'https://github.com/ellakumi/Data-Wrangling-Challenge';">View Project
+                </button> 
+                      
+            </div>
+        </div>
+        <div class="footer">
+            <p>Contact : 0559636148</p>
+            <p>Email : emmanuellakumi11@gmail.com</p>
+        </div>
         
     </body>
 </html>
