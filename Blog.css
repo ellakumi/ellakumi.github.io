@@ -201,12 +201,14 @@ a{
   }
   @media screen and (min-width: 600px) {
     .projectdesc {
-      font-size: 15px;
+      font-size: 18px;
     }
+      .footer {width: 100%;};
   }
   
   @media screen and (max-width: 600px) {
     .projectdesc {
       font-size: 13px;
-    }
+    };
+     .footer {width: 100%;}; 
 }
