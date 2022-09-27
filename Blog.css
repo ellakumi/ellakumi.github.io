@@ -201,7 +201,7 @@ a{
   }
   @media screen and (min-width: 600px) {
     .projectdesc {
-      font-size: 18px;
+      font-size: 20px;
     }
       .footer {width: 100%;};
   }
